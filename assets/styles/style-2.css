@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 100;
-    background-color: light;
     font-family: Roboto, sans-serif;
 }
 .foto{
     display:none;
 }
 header{
-    display:absolute;
     height:510px;
 }
 .banner{
@@ -57,7 +55,7 @@ nav{
     box-shadow: 0 5px 5px 5px rgba(0,0,0, 0.5);
 
 }
-section li{
+ul li{
     list-style: none;
     font-size: 23px;
     text-align:left;
@@ -77,7 +75,7 @@ section li{
 main{
     width:90%;
 }
-main section{
+main section, .seccion-1, .contacto{
     padding:50px 0;
     width: 60%;
     height: auto;

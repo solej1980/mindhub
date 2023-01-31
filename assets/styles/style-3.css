@@ -3,14 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 100;
-    background-color: light;
     font-family: Roboto, sans-serif;
 }
 
-header{
-    display:absolute;
-    margin-bottom: 0;
-}
 .banner{
     width: 100%;
     display: block;
@@ -47,14 +42,7 @@ nav{
         
 
 }
-.seccion-1{
-    width: 90%;
-    display: relative;
-    left:0;
-    top:0;
-    height: auto;
-    background-color: rgba(107, 223, 141, 0.5);
-}
+
 .logo{
     width: 100px;
     position: absolute;
@@ -64,7 +52,7 @@ nav{
     box-shadow: 0 5px 5px 5px rgba(0,0,0, 0.5);
 
 }
-section li{
+ul li{
     list-style: none;
     text-align:left;
     line-height: 40px;
@@ -84,7 +72,7 @@ section li{
 main{
     width:90%;
 }
-main section{
+main section, .contacto, .seccion-1{
     display: inline-block;
     text-shadow: 1px 1px 1px black;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -99,6 +87,13 @@ main section{
     position: relative;
     bottom: 100px;
     margin-bottom: 15px;
+}
+.seccion-1{
+    width: 90%;
+    left: 0px;
+    top:0;
+    height: auto;
+    background-color: rgba(109, 212, 140, 0.5);
 }
 .about section:hover, .foto:hover{
     cursor:pointer;
