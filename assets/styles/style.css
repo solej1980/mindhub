@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha', cursive;
+}
+body{
+    background-color: yellow;
+}
+.logo{
+    width:15rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+
+}
+header{
+    width:100%;
+    height: 50vh;
+
+}
+
+.banner{
+    padding-top: 1vh;
+    object-fit: none;
+    height: 100%;
+    width: 100%;
+}
+
+.caja h1{
+    color: yellow;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 2px 2px red;
+    margin: 0 5.6rem;
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+    float: left;
+
+}
+.caja{
+    width: 100%;
+    background-color: rgb(212, 106, 35);
+
+}
+nav{
+    min-height: 6vh;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    flex-wrap: wrap;
+    margin:0 5.5rem;
+    align-items: center;
+}
+nav a{
+    width: 16rem;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    height: 3.2rem;
+    color:rgb(212, 106, 35);
+
+    box-shadow: 0 2px 2px 0 rgb(0,0,0,2);
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    background-color: rgb(241, 241, 51);
+    transition: all 0.5s;
+}
+.titulo{
+    margin-top:0;
+    background-color: black;
+    color: rgb(245, 230, 29);
+    font-size: 3rem;
+    padding: 1%;
+    text-align: center;
+}
+
+a:hover{
+    transform: scale(1.1);
+    color: rgb(241, 241, 51);
+    background-color: rgb(218, 15, 15);
+}
+
+a:active{
+    background-color: black;
+    color: white;
+}
+.seccion-1, section{
+    width: 100%;
+    background-color: yellow;
+    font-size: 1.4rem;
+    padding: 1% 0;
+    
+
+}
+ul, .seccion-2, h2, ol{
+    padding:2%;
+    margin-top:5%;
+    line-height:50px;
+}
+.fecha, .evento, p, dl{
+    margin-left:15%;
+    list-style: none;
+
+}
+.fecha, dt{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.evento{
+    text-indent:15px;
+}
+p{
+    font-size: 1.4rem;
+    padding:3%;  
+}
+caption{
+    font-size: 1.8rem;
+    padding:2%;
+    font-weight: bolder;
+}
+table{
+    margin: 2% auto;
+    text-align: center;
+    background-color: orange;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid rgba(240, 145, 36, 0.685);
+}
+thead th{
+    font-size: 1.5rem;
+    padding: 1%;
+    border: 3px solid rgba(240, 145, 36, 0.685);
+
+}
+tbody th{
+    font-weight: lighter;
+}
+
+li::marker{
+    font-weight: bolder;
+}
+dl{
+    padding-bottom: 3%;
+}
+dt{
+    font-weight:bolder;
+}
+dd{
+    margin-left:6em;
+    font-size: 1.5em;
+}
+.card{
+        background-color: orange;
+        box-shadow: 2px 2px red;
+
+        margin: 2% 1%;
+        border-radius: 5%;;
+        width: 30%;
+        padding: 1rem;
+        justify-content: center;
+        float:left;
+        height: 450px;
+}
+.card-2{
+    margin:0;
+    padding: 0;
+}
+.card-2 h2{
+    padding: 0 2%;
+}
+.card-2 p{
+    padding: 1%;
+    margin:0 2%;
+}
+.card-2 ol, .card-2 ul{
+    margin: 0 2%;
+
+}
