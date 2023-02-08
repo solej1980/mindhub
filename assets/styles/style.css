@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha', cursive;
+}
+body{
+    background-color: yellow;
+    height: 60vh;
+}
+.logo{
+    width:7%;
+    position: relative;
+    bottom:100%;
+
+}
+header{
+    width:100%;
+    height: 40vh;
+
+}
+
+.banner{
+    padding-top: 1vh;
+    object-fit: none;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-size: 6rem;
+    padding: 5%;
+    text-shadow: 2px 2px red;
+    background-color: rgb(212, 106, 35);
+    width: 100%;
+    height: 100%;
+
+}
+nav{
+    margin: 0 auto;
+    min-height: 6vh;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1%;
+    flex-wrap: wrap;
+    margin: 5% 0;
+    align-items: center;
+}
+
+nav a{
+    width: 15%;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(212, 106, 35);
+
+    box-shadow: 0 2px 2px 0 rgb(0,0,0,2);
+    padding: 1%;
+    font-size: 1.2rem;
+    background-color: rgb(241, 241, 51);
+    transition: all 0.5s;
+}
+
+.titulo{
+    margin-top:0;
+    background-color: black;
+    color: rgb(245, 230, 29);
+    font-size: 3rem;
+    padding: 1%;
+    text-align: center;
+}
+
+a:hover{
+    transform: scale(1.1);
+    color: rgb(241, 241, 51);
+    background-color:rgba(212, 106, 35, 0.61);
+
+}
+
+a:active{
+    background-color: black;
+    color: rgb(218, 142, 29);
+}
+.seccion-1, section{
+    width: 100%;
+    background-color: yellow;
+    font-size: 1.4rem;
+    padding: 1% 0;
+    
+
+}
+ul, .seccion-2, h2, ol{
+    padding:2%;
+    margin-top:5%;
+    line-height:50px;
+}
+.fecha, .evento, p, dl{
+    margin-left:15%;
+    list-style: none;
+
+}
+.fecha, dt{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.evento{
+    text-indent:15px;
+}
+p{
+    font-size: 1.4rem;
+    padding:3%;  
+}
+caption{
+    font-size: 1.8rem;
+    padding:2%;
+    font-weight: bolder;
+}
+table{
+    margin: 2% auto;
+    text-align: center;
+    background-color: orange;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+}
+thead {
+    font-size: 1.5rem;
+    padding: 1%;
+    font-weight: bold;
+}
+
+tr, td{
+    border: 1px solid black;
+}
+
+li::marker{
+    font-weight: bolder;
+}
+dl{
+    padding-bottom: 3%;
+}
+dt{
+    font-weight:bolder;
+}
+dd{
+    margin-left:2%;
+    font-size: 1.5em;
+}
+.card{
+        background-color: orange;
+        box-shadow: 2px 2px red;
+        margin: 2%;
+        border-radius: 5%;;
+        width: 30%;
+        padding: 1%;
+        justify-content: center;
+        float:left;
+}
+.card-2{
+    margin:0;
+    padding: 0;
+}
+.card-2 h2{
+    padding: 0 2%;
+}
+.card-2 p{
+    padding: 1%;
+    margin:0 2%;
+}
+.card-2 ol, .card-2 ul{
+    margin: 0 2%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+form{
+    margin: 0 20%;
+    background-color: orange;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+fieldset, legend{
+    border: none;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    padding-bottom: 4%;
+}
+label, select{
+    font-size: 1.5rem;
+    
+}
+input{
+    font-size: 1.2rem;
+}
+fieldset p{
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    width: 200px;
+    height: auto;
+}
+caption{
+    font-size: 1rem;
+}
+h3, h4{
+    text-align: center;
+}
+h3{
+    padding-top: 3%;
+}
+h4{
+    font-size: 1.3rem;
+}
+#signature, #date{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid black;
+}
